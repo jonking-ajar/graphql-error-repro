@@ -1,0 +1,21 @@
+{
+  "name": "@graphql-error-repro/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@types/aws-lambda": "^8.10.111"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.4.1",
+    "@apollo/subgraph": "^2.3.3",
+    "@as-integrations/aws-lambda": "^2.0.1",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "@types/aws-lambda": "^8.10.111"
+  }
+}
